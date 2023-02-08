@@ -1,0 +1,16 @@
+<h1>Tech Blog</h1>
+
+
+
+
+  {{#each posts}}
+  <div style="border: solid black 1px ;">
+  <div style="background-color: aqua; display:flex; justify-content:space-between;">
+    <h3>{{title}} </h3>
+    <h3> User: {{username}} Time: {{createdAt}} </h3>
+  </div>
+  <div>
+    <p>{{post_text}}</p>
+  </div>
+</div>
+  {{/each}}
