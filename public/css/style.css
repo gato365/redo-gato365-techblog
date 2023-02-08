@@ -18,6 +18,14 @@ header, .project:not(:last-child) {
     font-size: 100%;
   }
   
+     /* Styles for the nav bar */
+     .nav {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 20px;
+      background-color: #f2f2f2;
+  }
+
   .no-button:hover {
     color: #065b83;
     text-decoration: underline;
