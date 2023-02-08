@@ -1,32 +1,92 @@
 [
     {
-        "id": 1,
-        "username": "John",
-        "password": "3ff0",
-        "email": "locojohn@yahoo.com"
+      "name": "John Doe",
+      "username": "john_doe",
+      "password": "password1", 
+      "email": "john.doe@example.com"
     },
     {
-        "id": 2,
-        "username": "Oliver",
-        "password": "3sdsd0",
-        "email": "ff@gmail.com"
+      "name": "Jane Doe",
+      "username": "jane_doe",
+      "password": "password2", 
+      "email": "jane.doe@example.com"
     },
     {
-        "id": 3,
-        "username": "Becky",
-        "password": "ssadasd",
-        "email": "becky@gmail.com"
+      "name": "Jim Smith",
+      "username": "jim_smith",
+      "password": "password3", 
+      "email": "jim.smith@example.com"
     },
     {
-        "id": 4,
-        "username": "Jecy",
-        "password": "ssadasd",
-        "email": "jecky@gmail.com"
+      "name": "Sarah Jones",
+      "username": "sarah_jones",
+      "password": "password4", 
+      "email": "sarah.jones@example.com"
     },
     {
-        "id": 5,
-        "username": "Anderson Paak",
-        "password": "Free Nationals",
-        "email": "anderp@gmail.com"
+      "name": "Tom Brown",
+      "username": "tom_brown",
+      "password": "password5", 
+      "email": "tom.brown@example.com"
+    },
+    {
+      "name": "Maria Garcia",
+      "username": "maria_garcia",
+      "password": "password6", 
+      "email": "maria.garcia@example.com"
+    },
+    {
+      "name": "David Wilson",
+      "username": "david_wilson",
+      "password": "password7", 
+      "email": "david.wilson@example.com"
+    },
+    {
+      "name": "Emily Anderson",
+      "username": "emily_anderson",
+      "password": "password8", 
+      "email": "emily.anderson@example.com"
+    },
+    {
+      "name": "Anthony Taylor",
+      "username": "anthony_taylor",
+      "password": "password9", 
+      "email": "anthony.taylor@example.com"
+    },
+    {
+      "name": "Olivia White",
+      "username": "olivia_white",
+      "password": "password10", 
+      "email": "olivia.white@example.com"
+    },
+    {
+      "name": "William Davis",
+      "username": "william_davis",
+      "password": "password11", 
+      "email": "william.davis@example.com"
+    },
+    {
+      "name": "Samantha Moore",
+      "username": "samantha_moore",
+      "password": "password12", 
+      "email": "samantha.moore@example.com"
+    },
+    {
+      "name": "Charles King",
+      "username": "charles_king",
+      "password": "password13", 
+      "email": "charles.king@example.com"
+    },
+    {
+      "name": "Abigail Robinson",
+      "username": "abigail_robinson",
+      "password": "password14", 
+      "email": "abigail.robinson@example.com"
+    },
+    {
+      "name": "Joseph Walker",
+      "username": "joseph_walker",
+      "password": "password15", 
+      "email": "joseph.walker@example.com"
     }
-]
+  ]

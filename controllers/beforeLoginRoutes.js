@@ -43,7 +43,9 @@ beforeLoginRouter.get('/', async (req, res) => {
 
 // Login page
 beforeLoginRouter.get('/login', async (req, res) => {
-    res.render('login');
+    res.render('login',{title: "HERE IS THE LOGIN PAGE"},);
+
+    
 });
 
 // Sign up page
