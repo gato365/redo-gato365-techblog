@@ -28,5 +28,23 @@
         "comment_text": "Get a life",
         "user_id":2,
         "post_id": 2
-     }
+     },
+       {
+         "id": 6,
+         "comment_text": "I love you",
+         "user_id":1,
+         "post_id": 3
+       },
+       {
+         "id": 7,
+         "comment_text": "I love you too",
+         "user_id":2,
+         "post_id": 3
+       },
+       {
+         "id": 8,
+         "comment_text": "I love you too",
+         "user_id":3,
+         "post_id": 3
+       }
 ]

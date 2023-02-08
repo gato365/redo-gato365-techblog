@@ -16,5 +16,17 @@
         "username": "Becky",
         "password": "ssadasd",
         "email": "becky@gmail.com"
+    },
+    {
+        "id": 4,
+        "username": "Jecy",
+        "password": "ssadasd",
+        "email": "jecky@gmail.com"
+    },
+    {
+        "id": 5,
+        "username": "Anderson Paak",
+        "password": "Free Nationals",
+        "email": "anderp@gmail.com"
     }
 ]
