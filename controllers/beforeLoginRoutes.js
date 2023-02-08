@@ -24,7 +24,7 @@ beforeLoginRouter.get('/', async (req, res) => {
                      },
                  ],
              },
-         ]   
+         ]
         
  
      });

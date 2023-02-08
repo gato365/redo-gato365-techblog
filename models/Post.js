@@ -25,6 +25,11 @@ Post.init(
                 model: 'user',
                 key: 'id'
             }
+        },
+        date: {
+            type: DataTypes.DATE,
+            defaultValue: DataTypes.NOW,
+            allowNull: false
         }
     },
     {

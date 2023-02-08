@@ -9,79 +9,92 @@
         "id": 2,
         "title": "The 1 post",
         "post_text": "Holy Molly, this is the second post",
-        "user_id": 2
+        "user_id": 2,
+        "date": "2/8/2023"
     },
     {
         "id": 3,
         "title": "Creativity",
         "post_text": "Live, Love, Laugh",
-        "user_id": 3
+        "user_id": 3,
+        "date": "2/8/2023"
     },
     {
         "id": 4,
         "title": "The 4th post",
         "post_text": "This is the 4th post",
-        "user_id": 4
+        "user_id": 4,
+        "date": "2/8/2023"
     },
     {
         "id": 5,
         "title": "The 5th post",
         "post_text": "This is the 5th post",
-        "user_id": 5
+        "user_id": 5,
+        "date": "2/8/2023"
     },
     {
         "id": 6,
         "title": "The 6th post",
         "post_text": "This is the 6th post",
-        "user_id": 1
+        "user_id": 1,
+        "date": "2/8/2023"
     },
     {
         "id": 7,
         "title": "The 7th post",
         "post_text": "This is the 7th post",
-        "user_id": 2
+        "user_id": 2,
+        "date": "2/8/2023"
     },
     {
         "id": 8,
         "title": "The 8th post",
         "post_text": "This is the 8th post",
-        "user_id": 3
+        "user_id": 3,
+        "date": "2/8/2023"
     },
     {
         "id": 9,
         "title": "The 9th post",
         "post_text": "This is the 9th post",
-        "user_id": 4
+        "user_id": 4,
+        "date": "2/8/2023"
     },
     {
         "id": 10,
         "title": "The 10th post",
         "post_text": "This is the 10th post",
-        "user_id": 1
+        "user_id": 1,
+        "date": "2/8/2023"
     },
     {
         "id": 11,
         "title": "The 11th post",
         "post_text": "This is the 11th post",
-        "user_id": 1
+        "user_id": 1,
+        "date": "2/8/2023"
     },
     {
         "id": 12,
         "title": "The 12th post",
         "post_text": "This is the 12th post",
-        "user_id": 5
+        "user_id": 5,
+        "date": "2/8/2023"
     },
     {
         "id": 13,
         "title": "The 13th post",
         "post_text": "This is the 13th post",
-        "user_id": 4
+        "user_id": 4,
+        "date": "2/8/2023"
     },
     {
         "id": 14,
         "title": "The 14th post",
         "post_text": "This is the 14th post",
-        "user_id": 4
+        "user_id": 4,
+        "date": "2/8/2023"
     }
    
 ]
