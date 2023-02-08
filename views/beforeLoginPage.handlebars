@@ -3,15 +3,21 @@
 
 
 
-  {{#each posts}}
-  <div style="border: solid black 1px ;">
+{{#each posts}}
+<div style="border: solid black 1px ;">
   <div style="background-color: #3B4A68; display:flex; justify-content:space-between; color: #E37262; font-size: 5px;">
     <h5>{{title}} </h5>
-   <h5> User: {{user.username}} Time:  {{createdAt}}</h5> 
+    <h5> User: {{user.username}} Time: </h5>
   </div>
   <div>
     <p>{{post_text}}</p>
   </div>
-</div>
+  {{#each comments}}
+  {{!-- <div style="background-color: #3B4A68; display:flex; justify-content:space-between; color: #E37262; font-size: 5px;"> --}}
+    Comment: {{comment_text}} 
+    <br>
+    
   {{/each}}
 
+</div>
+{{/each}}
