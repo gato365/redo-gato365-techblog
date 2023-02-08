@@ -4,7 +4,7 @@
 
 
 {{#each posts}}
-<div style="border: solid black 1px ;">
+<div style="border: solid black 1px ; margin: 10px;">
   <div style="background-color: #3B4A68; display:flex; justify-content:space-between; color: #E37262; font-size: 5px;">
     <h5>{{title}} </h5>
     <h5> User: {{user.username}} Time: </h5>
@@ -12,12 +12,19 @@
   <div>
     <p>{{post_text}}</p>
   </div>
-  {{#each comments}}
-  {{!-- <div style="background-color: #3B4A68; display:flex; justify-content:space-between; color: #E37262; font-size: 5px;"> --}}
-    Comment: {{comment_text}} 
-    <br>
-    
-  {{/each}}
 
 </div>
+{{#each comments}}
+<div style="border: solid black 1px ; margin: 10px;">
+  <div style="background-color: #657B79; display:flex; justify-content:space-between; color: #FFF8E9; font-size: 10px;">
+    Comment: {{comment_text}} <br>
+    Name: {{user.username}} <br>
+    {{!-- Date: {{date}} --}}
+  </div>
+</div>
+
+
+{{/each}}
+
+
 {{/each}}
