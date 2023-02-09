@@ -11,7 +11,18 @@
             <input class="form-input" type="password" id="password-login" />
         </div>
         <div class="form-group">
-            <button class="btn btn-primary" type="submit">login</button>
+            <button class="btn btn-primary" type="submit">Login</button>
+            {{!-- <button class="btn btn-primary" type="submit">Sign Up</button> --}}
         </div>
     </form>
+
+    <p>Learning</p>
 </div>
+
+<script>
+
+
+ document.querySelector('.btn.btn-primary').addEventListener('click', function(){
+    document.querySelector('p').style.display = 'none';
+});
+</script>

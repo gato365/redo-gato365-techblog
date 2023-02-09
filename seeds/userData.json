@@ -19,5 +19,47 @@
         "username": "Becky3",
         "password": "ssadasd",
         "email": "becky@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Sam",
+        "username": "Sam4",
+        "password": "dasdsa",
+        "email": "sam@yahoo.com"
+    },
+    {
+        "id": 5,
+        "name": "Samantha",
+        "username": "Samantha5",
+        "password": "3ff0asd",
+        "email": "samantha@hotmail.com"
+    },
+    {
+        "id": 6,
+        "name": "Gavin",
+        "username": "Gavin6",
+        "password": "3ff0asdasd",
+        "email": "gavin@yahoo.com"
+    },
+    {
+        "id": 7,
+        "name": "Steve",
+        "username": "Steve7",
+        "password": "sdasdasdasd",
+        "email": "steve@gmail.com"
+    },
+    {
+        "id": 8,
+        "name": "Jack",
+        "username": "Jack8",
+        "password": "dasdasdasd",
+        "email": "jack@hotmail.com"
+    },
+    {
+        "id": 9,
+        "name": "Emily",
+        "username": "Emily9",
+        "password": "3ff0ssd",
+        "email": "emily@yahoo.com"
     }
 ]

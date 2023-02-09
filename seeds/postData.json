@@ -16,5 +16,35 @@
         "title": "Creativity",
         "post_text": "Live, Love, Laugh",
         "user_id": 3
+    },
+    {
+        "id": 4,
+        "title": "A New Start",
+        "post_text": "Let's get this party started!",
+        "user_id": 4
+    },
+    {
+        "id": 5,
+        "title": "Shake it Up",
+        "post_text": "It's time to make some changes!",
+        "user_id": 5
+    },
+    {
+        "id": 6,
+        "title": "New Horizons",
+        "post_text": "Let's go explore the unknown!",
+        "user_id": 6
+    },
+    {
+        "id": 7,
+        "title": "Rise and Shine",
+        "post_text": "It's time to start the day!",
+        "user_id": 7
+    },
+    {
+        "id": 8,
+        "title": "The Power of Now",
+        "post_text": "Live in the moment and seize the day!",
+        "user_id": 8
     }
 ]
