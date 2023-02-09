@@ -1,100 +1,164 @@
 [
-    {
-        "id": 1,
-        "title": "The first post",
-        "post_text": "This is the first post",
-        "user_id": 1
-    },
-    {
-        "id": 2,
-        "title": "The 1 post",
-        "post_text": "Holy Molly, this is the second post",
-        "user_id": 2,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 3,
-        "title": "Creativity",
-        "post_text": "Live, Love, Laugh",
-        "user_id": 3,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 4,
-        "title": "The 4th post",
-        "post_text": "This is the 4th post",
-        "user_id": 4,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 5,
-        "title": "The 5th post",
-        "post_text": "This is the 5th post",
-        "user_id": 5,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 6,
-        "title": "The 6th post",
-        "post_text": "This is the 6th post",
-        "user_id": 1,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 7,
-        "title": "The 7th post",
-        "post_text": "This is the 7th post",
-        "user_id": 2,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 8,
-        "title": "The 8th post",
-        "post_text": "This is the 8th post",
-        "user_id": 3,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 9,
-        "title": "The 9th post",
-        "post_text": "This is the 9th post",
-        "user_id": 4,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 10,
-        "title": "The 10th post",
-        "post_text": "This is the 10th post",
-        "user_id": 1,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 11,
-        "title": "The 11th post",
-        "post_text": "This is the 11th post",
-        "user_id": 1,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 12,
-        "title": "The 12th post",
-        "post_text": "This is the 12th post",
-        "user_id": 5,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 13,
-        "title": "The 13th post",
-        "post_text": "This is the 13th post",
-        "user_id": 4,
-        "date": "2/8/2023"
-    },
-    {
-        "id": 14,
-        "title": "The 14th post",
-        "post_text": "This is the 14th post",
-        "user_id": 4,
-        "date": "2/8/2023"
-    }
-   
+  {
+    "title": "My first post",
+    "post_text": "This is my first post. I'm excited to share my thoughts!",
+    "user_id": 1,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Benefits of Writing",
+    "post_text": "Writing is a great way to express yourself and to share your ideas with others.",
+    "user_id": 2,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Power of Music",
+    "post_text": "Music is a powerful form of expression that can bring people together and create strong emotions.",
+    "user_id": 3,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Beauty of Nature",
+    "post_text": "Nature is a source of beauty, wonder, and peace. Find time to admire its beauty and appreciate its gifts.",
+    "user_id": 4,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Joy of Reading",
+    "post_text": "Reading is a great way to learn, relax, and escape into another world. Give it a try!",
+    "user_id": 5,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Importance of Exercise",
+    "post_text": "Exercise is essential for physical and mental wellbeing. Make sure to make time for it every day!",
+    "user_id": 6,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Art of Cooking",
+    "post_text": "Cooking is an art form that can be both creative and therapeutic. Give it a try and let your creativity shine!",
+    "user_id": 7,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Benefits of Meditation",
+    "post_text": "Meditation is a great way to reduce stress and anxiety and to cultivate a sense of inner peace.",
+    "user_id": 8,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Value of Friendship",
+    "post_text": "Friendship is an invaluable gift. Reach out and stay connected with friends, old and new!",
+    "user_id": 9,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Meaning of Life",
+    "post_text": "Life is a precious gift and each day is an adventure. Make the most of it and live life to the fullest!",
+    "user_id": 10,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Power of Positive Thinking",
+    "post_text": "Positive thinking can help you achieve your goals and be successful. Believe in yourself and stay positive!",
+    "user_id": 11,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Joy of Traveling",
+    "post_text": "Traveling is a great way to explore new places and cultures and to learn about the world around you.",
+    "user_id": 12,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Magic of Learning",
+    "post_text": "Learning is a lifelong journey and one of the most rewarding experiences in life. Embrace it and never stop learning!",
+    "user_id": 13,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Gift of Giving",
+    "post_text": "Giving is one of the most selfless and rewarding experiences. Find ways to give back and make a difference in the world!",
+    "user_id": 14,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Art of Storytelling",
+    "post_text": "Storytelling is a powerful tool to connect with others and share your experiences. Give it a try and share your stories!",
+    "user_id": 15,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Benefits of Yoga",
+    "post_text": "Yoga is a great way to stay fit and to relax your mind and body. Give it a try and find your inner peace!",
+    "user_id": 1,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Magic of Nature",
+    "post_text": "Nature is a source of beauty, wonder, and healing. Spend time outdoors and reconnect with the natural world!",
+    "user_id": 2,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Joy of Gardening",
+    "post_text": "Gardening is a great way to connect with nature and to create something beautiful. Give it a try and enjoy the process!",
+    "user_id": 3,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Value of Simplicity",
+    "post_text": "Simplicity can bring clarity and joy to our lives. Find ways to simplify your life and enjoy the peace it brings!",
+    "user_id": 4,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Power of Gratitude",
+    "post_text": "Gratitude is a powerful tool to cultivate happiness and joy. Take time to appreciate the blessings in your life!",
+    "user_id": 5,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Benefits of Sleep",
+    "post_text": "Sleep is essential for physical and mental wellbeing. Make sure to get enough sleep every night!",
+    "user_id": 6,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Art of Listening",
+    "post_text": "Listening is a great way to connect with others and to learn from them. Take time to listen and be  present!",
+    "user_id": 7,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Value of Time",
+    "post_text": "Time is a precious gift. Make the most of it and don't waste it on things that won't bring you joy!",
+    "user_id": 8,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Power of Kindness",
+    "post_text": "Kindness is one of the most powerful tools to make a difference in the world. Spread kindness and make it contagious!",
+    "user_id": 9,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Magic of Creativity",
+    "post_text": "Creativity is a great way to express yourself and to find joy in the little things. Let your creativity shine!",
+    "user_id": 10,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "The Joy of Learning",
+    "post_text": "Learning is a lifelong journey and one of the most rewarding experiences in life. Embrace it and never stop learning!",
+    "user_id": 11,
+    "date": "1/1/2023"
+  },
+  {
+    "title": "Learning",
+    "post_text": "learning!",
+    "user_id": 13,
+    "date": "1/1/2023"
+  }
 ]
