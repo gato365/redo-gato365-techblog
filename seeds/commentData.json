@@ -3,56 +3,30 @@
        "id": 1,
        "comment_text": "Wow you love me so much",
        "user_id":1,
-       "post_id": 1,
-       "date": "2/8/2023"
+       "post_id": 1
     },
     {
         "id": 2,
         "comment_text": "Add me on facebook",
         "user_id":2,
-        "post_id": 1,
-        "date": "2/8/2023"
+        "post_id": 1
      },
      {
         "id": 3,
         "comment_text": "you are my best friend",
         "user_id": 3,
-        "post_id": 2,
-        "date": "2/8/2023"
+        "post_id": 2
      },
      {
         "id": 4,
         "comment_text": "stay away from me at all costs",
         "user_id":3,
-        "post_id": 2,
-        "date": "2/8/2023"
+        "post_id": 2
      },
      {
         "id": 5,
         "comment_text": "Get a life",
         "user_id":2,
-        "post_id": 2,
-        "date": "2/8/2023"
-     },
-       {
-         "id": 6,
-         "comment_text": "I love you",
-         "user_id":1,
-         "post_id": 3,
-         "date": "2/8/2023"
-       },
-       {
-         "id": 7,
-         "comment_text": "I love you too",
-         "user_id":2,
-         "post_id": 3,
-         "date": "2/8/2023"
-       },
-       {
-         "id": 8,
-         "comment_text": "I love you too",
-         "user_id":3,
-         "post_id": 3,
-         "date": "2/8/2023"
-       }
+        "post_id": 2
+     }
 ]
