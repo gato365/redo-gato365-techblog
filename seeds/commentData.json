@@ -28,6 +28,30 @@
         "comment_text": "Get a life",
         "user_id":2,
         "post_id": 2
-     }
+     },
+     {
+      "id": 6,
+      "comment_text": "stay away from me at all costs",
+      "user_id":1,
+      "post_id": 2
+   },
+   {
+      "id": 7,
+      "comment_text": "Get a life",
+      "user_id":5,
+      "post_id": 5
+   },
+   {
+      "id": 8,
+      "comment_text": "you are my best friend",
+      "user_id":7,
+      "post_id": 3
+   },
+   {
+      "id": 9,
+      "comment_text": "What, help",
+      "user_id":6,
+      "post_id": 4
+   }
      
 ]
