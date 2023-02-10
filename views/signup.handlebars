@@ -7,9 +7,15 @@
             <input class="form-input" type="text" id="name-signup" />
         </div>
         <div class="form-group">
+            <label for="username-signup">username:</label>
+            <input class="form-input" type="text" id="username-signup" />
+        </div>
+        <div class="form-group">
             <label for="email-signup">email:</label>
             <input class="form-input" type="text" id="email-signup" />
         </div>
+  
+        
         <div class="form-group">
             <label for="password-signup">password:</label>
             <input class="form-input" type="password" id="password-signup" />
@@ -27,4 +33,42 @@
         event.preventDefault();
         document.location.replace('/login');
     });
+
+
+
+
+
+ const signupFormHandler = async (event) => {
+  event.preventDefault();
+
+  const name = document.querySelector('#name-signup').value.trim();
+  const username = document.querySelector('#username-signup').value.trim();
+  const email = document.querySelector('#email-signup').value.trim();
+  const password = document.querySelector('#password-signup').value.trim();
+  
+  if (name && username && email && password) {
+    const response = await fetch('/api/users', {
+      method: 'POST',
+      body: JSON.stringify({ name, username, email, password }),
+      headers: { 'Content-Type': 'application/json' },
+    });
+
+    console.log(name,username,email,password);
+
+     if (response.ok) {
+      document.location.replace('/');
+    } else {
+      alert(response.statusText);
+    } 
+  }
+};
+
+
+
+document
+.getElementById('sign-up-button')
+  .addEventListener('click', signupFormHandler);
+
+  
+   
 </script>
