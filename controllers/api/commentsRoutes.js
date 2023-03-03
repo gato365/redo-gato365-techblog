@@ -2,8 +2,9 @@ const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-
-// GET all comments
+// @DESC    Get all comments
+// @ROUTE   GET /api/comments
+// @ACCESS  Public
 router.get('/', (req, res) => {
     try {
         // Access our Comment model and run .findAll() method)
@@ -23,9 +24,9 @@ router.get('/', (req, res) => {
         res.status(500).json(err);
     }
 });
-
-
-// Post a comment
+// @DESC Post a comment
+// @ROUTE POST /api/comments
+// @ACCESS Private
 router.post('/', withAuth, (req, res) => {
     try {
         // Access our Comment model and run .create() method)
