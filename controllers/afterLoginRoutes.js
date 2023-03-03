@@ -11,7 +11,7 @@ const withAuth = require('../utils/auth');
 
 // Display all posts on the home page (after login)
 
-afterLoginRouter.get('/', async (req, res) => {
+afterLoginRouter.get('/', withAuth, async (req, res) => {
 
     try {
         let posts = await Post.findAll({
@@ -66,7 +66,7 @@ afterLoginRouter.get('/', async (req, res) => {
 
 
 // Display a single post on the post page (after login)
-afterLoginRouter.get('/post/:id', async (req, res) => {
+afterLoginRouter.get('/post/:id', withAuth, async (req, res) => {
     try {
         // Find the post by its id
         let post = await Post.findOne({
@@ -159,8 +159,12 @@ afterLoginRouter.get('/edit/:id', async (req, res) => {
 });
 
 
-
-
+// Might Delete this
+router.get('/new', (req, res) => {
+    res.render('add-post', {
+        loggedIn: true
+    })
+})
 
 // Export the router
 module.exports = afterLoginRouter;
