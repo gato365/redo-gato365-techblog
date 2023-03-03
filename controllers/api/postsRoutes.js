@@ -2,7 +2,9 @@ const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-// GET all posts
+// @DESC GET all posts
+// @ROUTE GET /api/posts
+// @ACCESS Public
 router.get('/', (req, res) => {
     try {
         // Access our Post model and run .findAll() method)
@@ -26,7 +28,9 @@ router.get('/', (req, res) => {
 });
 
 
-// GET a single post
+// @DESC GET a single post
+// @ROUTE GET /api/posts/:id
+// @ACCESS Public
 router.get('/:id', (req, res) => {
     try {
 
@@ -54,7 +58,9 @@ router.get('/:id', (req, res) => {
 
 });
 
-// Create a new post
+// @DESC Post a new post
+// @ROUTE POST /api/posts
+// @ACCESS Private
 router.post('/', withAuth, (req, res) => {
 
     try {
@@ -71,7 +77,9 @@ router.post('/', withAuth, (req, res) => {
 
 });
 
-// Update a post
+// @DESC Update a post
+// @ROUTE PUT /api/posts/:id
+// @ACCESS Private
 router.put('/:id', withAuth, (req, res) => {
     try {
         let posts = Post.update(
@@ -98,7 +106,9 @@ router.put('/:id', withAuth, (req, res) => {
     }
 });
 
-// Delete a post
+// @DESC Delete a post
+// @ROUTE DELETE /api/posts/:id
+// @ACCESS Private
 router.delete('/:id', withAuth, (req, res) => {
     try {
         let posts = Post.destroy({

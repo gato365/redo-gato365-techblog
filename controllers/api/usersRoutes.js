@@ -1,7 +1,9 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
-// Get all users
+// @DESC Get all users
+// @ROUTE GET /api/users
+// @ACCESS Public
 router.get('/', async (req, res) => {
   try {
     const userData = await User.findAll(
@@ -21,7 +23,9 @@ router.get('/', async (req, res) => {
 });
 
 
-// Get 1 user
+// @DESC Get 1 user
+// @ROUTE GET /api/users/:id
+// @ACCESS Public
 router.get('/:id', async (req, res) => {
   try {
     const userData = await User.findOne(
@@ -44,7 +48,9 @@ router.get('/:id', async (req, res) => {
 
 });
 
-// Create a new user
+// @DESC Create a new user
+// @ROUTE POST /api/users
+// @ACCESS Public
 router.post('/', async (req, res) => {
   try {
     const userData = await User.create(req.body);
@@ -60,7 +66,9 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Login route for existing users
+// @DESC Login route for existing users
+// @ROUTE POST /api/users/login
+// @ACCESS Public
 router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
@@ -103,7 +111,9 @@ router.post('/login', async (req, res) => {
   }
 });
 
-// Logout route for existing users
+// @DESC Logout route for existing users
+// @ROUTE POST /api/users/logout
+// @ACCESS Public
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {

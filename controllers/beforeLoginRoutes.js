@@ -6,6 +6,9 @@ const beforeLoginRouter = new Router();
 
 
 // Display all posts on the home page (before login)
+// @DESC    Get all posts
+// @ROUTE   GET /beforeLogin
+// @ACCESS  Public
 beforeLoginRouter.get('/', async (req, res) => {
     let posts = await Post.findAll({
         include: [
@@ -39,6 +42,9 @@ beforeLoginRouter.get('/', async (req, res) => {
 });
 
 // Display a single post on the post page (before login)
+// @DESC    Get a single post
+// @ROUTE   GET /beforeLogin/post/:id
+// @ACCESS  Public
 beforeLoginRouter.get('/post/:id', async (req, res) => {
 
     try {
@@ -86,20 +92,28 @@ beforeLoginRouter.get('/post/:id', async (req, res) => {
 });
 
 // Login page
+// @DESC    Get the login page
+// @ROUTE   GET /beforeLogin/login
+// @ACCESS  Public
 beforeLoginRouter.get('/login', async (req, res) => {
     res.render('login', { title: "HERE IS THE LOGIN PAGE" },);
 });
 
 // Sign up page
+// @DESC    Get the sign up page
+// @ROUTE   GET /beforeLogin/signup
+// @ACCESS  Public
 beforeLoginRouter.get('/signup', async (req, res) => {
     res.render('signup');
 });
 
 // Any other route will be redirected to the home page
+// @DESC    Redirect to the home page
+// @ROUTE   GET /*
+// @ACCESS  Public
 beforeLoginRouter.get('*', async (req, res) => {
     res.redirect('/');
 });
-
 
 module.exports = beforeLoginRouter;
 
