@@ -1,6 +1,48 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
+// Get all users
+router.get('/', async (req, res) => {
+  try {
+    const userData = await User.findAll(
+      {
+        attributes: {
+          // Exclude the password from the response
+          exclude: ['password']
+        }
+      }
+    );
+    // This will return all users
+    res.status(200).json(userData);
+  } catch (err) {
+    // This will return an error message
+    res.status(500).json(err);
+  }
+});
+
+
+// Get 1 user
+router.get('/:id', async (req, res) => {
+  try {
+    const userData = await User.findOne(
+      {
+        where: {
+          id: req.params.id
+        },
+        attributes: {
+          // Exclude the password from the response
+          exclude: ['password']
+        }
+      });
+
+    // This will return 1 user
+    res.status(200).json(userData);
+  } catch (err) {
+    // This will return an error message
+    res.status(500).json(err);
+  }
+
+});
 
 // Create a new user
 router.post('/', async (req, res) => {
