@@ -45,20 +45,20 @@ User.init(
 
     },
 
-    {
-        // set up beforeCreate password, push hash version of password then push password to database
-        hooks: {
-            // set up beforeCreate password, push hash version of password then push password to database
-            beforeCreate: async (newUserData) => {
-                newUserData.password = await bcrypt.hash(newUserData.password, 10);
-                return newUserData;
-            },
-            beforeUpdate: async (updatedUserData) => {
-                updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
-                return updatedUserData;
-            },
-        },
-    },
+    // {
+    //     // set up beforeCreate password, push hash version of password then push password to database
+    //     hooks: {
+    //         // set up beforeCreate password, push hash version of password then push password to database
+    //         beforeCreate: async (newUserData) => {
+    //             newUserData.password = await bcrypt.hash(newUserData.password, 10);
+    //             return newUserData;
+    //         },
+    //         beforeUpdate: async (updatedUserData) => {
+    //             updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
+    //             return updatedUserData;
+    //         },
+    //     },
+    // },
 
     {
         sequelize,
