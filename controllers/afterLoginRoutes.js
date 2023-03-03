@@ -167,13 +167,6 @@ afterLoginRouter.get('/edit/:id',withAuth, async (req, res) => {
 });
 
 
-// Might Delete this
-
-router.get('/new', (req, res) => {
-    res.render('add-post', {
-        loggedIn: true
-    })
-})
 
 // Export the router
 module.exports = afterLoginRouter;

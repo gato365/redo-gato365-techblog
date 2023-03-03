@@ -96,7 +96,14 @@ beforeLoginRouter.get('/post/:id', async (req, res) => {
 // @ROUTE   GET /beforeLogin/login
 // @ACCESS  Public
 beforeLoginRouter.get('/login', async (req, res) => {
-    res.render('login', { title: "HERE IS THE LOGIN PAGE" },);
+    // If the user is already logged in, redirect to the home page
+    if (req.session.loggedIn) {
+        res.redirect('/');
+        return;
+    }
+
+    // Display the login page
+    res.render('login');
 });
 
 // Sign up page
@@ -104,6 +111,11 @@ beforeLoginRouter.get('/login', async (req, res) => {
 // @ROUTE   GET /beforeLogin/signup
 // @ACCESS  Public
 beforeLoginRouter.get('/signup', async (req, res) => {
+    // If the user is already logged in, redirect to the home page
+    if (req.session.loggedIn) {
+        res.redirect('/');
+        return;
+    }
     res.render('signup');
 });
 

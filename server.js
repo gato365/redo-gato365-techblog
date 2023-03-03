@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 3001;
 // Set up Handlebars.js engine with custom helpers
 const hbs = exphbs.create({ helpers });
 
+// Set up sessions with cookies
 const sess = {
   secret: 'Super secret secret',
   cookie: {
@@ -35,6 +36,7 @@ app.use(session(sess));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
+// Define middleware here
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -44,6 +46,5 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => 
   console.log("Listening on http://localhost:" + PORT)
-  
   );
 });
